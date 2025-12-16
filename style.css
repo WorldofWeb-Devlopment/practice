@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.123);
+}
+header{
+    background-color: blueviolet;
+    padding: 20px 0px;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+.sub-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items a{
+    color: white;
+    margin: 0px 20px;
+}
+section{
+   width: 80%;
+    margin: 0px auto;  
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.hero-left{
+    padding: 10px 0px;
+}
+.hero-left h3{
+font-size: 70px;
+font-weight: normal;
+font-weight: 400;
+     margin-bottom: 20px;   /* heading & paragraph gap */
+  line-height: 1.2; 
+}
+.hero-content span{
+    color: rgb(102, 9, 189);
+}
+.hero-left p{
+    font-size: 20px;
+     margin-bottom: 20px;   /* heading & paragraph gap */
+  line-height: 1.2; 
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+    
+}
+.primary{
+    background-color: rgb(243, 173, 23);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.btns a{
+color:black;
+font-weight: bold;
+}
